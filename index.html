@@ -42,17 +42,17 @@
          classは任意設定
     -->
     <ul class="list list-unstyled">
-      {% for item in site.data.books %}
+      {% for item in site.data.kiji %}
       <li>
       <p class="horizon"></p>
       <dl>
-        <dt class="title">{{ item.title }}</dt>
-        <dd class="creator">{{ item.creator }}</dd>
-        <dd class="publisher">{{ item.publisher }}</dd>
-        <dd class="ncid">{{ item.ncid }}</dd>
-        <dd class="edition">{{ item.edtion }}</dd>
-        <dd class="publicationDate">{{ item.publicationDate }}</dd>
-        <dd class="note">{{ item.note }}</dd>
+        <dt class="d1">{{ item.d1 }}</dt>
+        <dd class="d2">{{ item.d2 }}</dd>
+        <dd class="d3">{{ item.d3 }}</dd>
+        <dd class="d4">{{ item.d4 }}</dd>
+        <dd class="d5">{{ item.d5 }}</dd>
+        <dd class="d6">{{ item.d6 }}</dd>
+        <dd class="d7">{{ item.d7 }}</dd>
       </dl>
       </li>
       {% endfor %}
