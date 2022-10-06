@@ -15,7 +15,7 @@
   <title>list.jsとjekyllによる静的なリストのテスト</title>
 </head>
 <body class="container">
-  <h1 id="top">list.jsとjekyllによる静的なリストのテスト</h1>
+  <h1 id="top">広報みのかも　記事検索（テスト版）</h1>
   <p>
     Code は<a href="https://github.com/Matsunotakanori/kyodo_shiryo.github.io" target="_blank">こちら</a>
   </p>
@@ -44,6 +44,8 @@
       <dl>
         <dt class="no">{{ item.no }}</dt>
         <dt class="kiji"><a href ="{{item.url }}">{{ item.kiji }}</a></dt>
+        <dd class="title">{{ item.title }}</dd>
+        <dd class="vol">{{ item.vol }}</dd>
         <dd class="hizuke">{{ item.hizuke }}</dd>
       </dl>
       </li>
@@ -61,7 +63,7 @@
   // List.jsの動作パラメータ設定
   var options = {
     // 対象とするclass を指定
-    valueNames: ['no', 'kiji', 'hizuke', 'url', ],
+    valueNames: ['no', 'kiji', 'title', 'vol', 'hizuke', 'url', ],
     // ページネーション指定 pageはページごとの表示件数
     page: 20,
     pagination: {
