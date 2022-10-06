@@ -1,1 +1,1 @@
-# shinbun_kiji.github.io
+# kyodo_shiryo.github.io
