@@ -33,7 +33,7 @@
     </div>
     <br>
     <!--
-      図書リスト
+      記事リスト
          <ul>のclassをlist.js指定の"list"にすることで処理が働く
          classは任意設定
     -->
@@ -44,9 +44,11 @@
       <dl>
         <dt class="no">{{ item.no }}</dt>
         <dt class="kiji"><a href ="{{item.url }}">{{ item.kiji }}</a></dt>
-        <dd class="title">{{ item.title }} {{ item.vol }}</dd>
+        <dd class="title">{{ item.title }} {{ item.vol }} {{ item.hizuke }}</dd>
+   <!--
         <dd class="vol">{{ item.vol }}</dd>
         <dd class="hizuke">{{ item.hizuke }}</dd>
+   -->
       </dl>
       </li>
       {% endfor %}
