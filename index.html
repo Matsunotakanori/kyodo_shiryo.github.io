@@ -59,7 +59,7 @@
 <!--
         <dd class="title">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>
 -->   
-        <dd class="title">{{ item.kiji }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
+        <dd class="title">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
       </dl>
       </li>
       {% endfor %}
@@ -77,7 +77,6 @@
   var options = {
     // 対象とするclass を指定
     valueNames: ['kiji', 'vol', 'hizuke', ],
- 
     // ページネーション指定 pageはページごとの表示件数
     page: 20,
     pagination: {
