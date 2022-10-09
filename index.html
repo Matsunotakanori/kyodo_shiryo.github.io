@@ -23,12 +23,17 @@
     <li>「広報みのかも」は <a href = "https://www.city.minokamo.gifu.jp/shimin/contents.cfm?base_id=6449&mi_id=5&g1_id=16&g2_id=76">こちら</a></li>
   </ul>
   <!-- list.jsのブロック idはlist.jsの呼び出しに使う　HTML末尾のスクリプトで指定している -->
+ <button class ="sort" data-sort="kiji">
+      記事名で並び替え
+ </button>
+  
   <div id="listdata">
     <div class="form-group">
       <label for="keyword">調べたい言葉を入力<span class="alert">※半角スペース区切りでAND検索可能</span></label>
       <!-- classをsearchにし、list.jsの検索欄に -->
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
+      
     </div>
     <!-- classをpaginationにし、list.jsのページネーションに -->
     <div class="form-group">
