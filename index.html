@@ -33,9 +33,6 @@
       <span id="hits"></span>
       
     </div>
-     <button class ="sort" data-sort="kiji">
-      記事名で並び替え
-      </button>
     <!-- classをpaginationにし、list.jsのページネーションに -->
     <div class="form-group">
       <ul class="pagination list-inline"></ul>
@@ -53,7 +50,7 @@
       <dl>
 <!--
         <dt class="no">{{ item.no }}</dt>
-        <dt class="kiji"><a href ="{{item.url }}">{{ item.kiji }}</a></dt>
+        <dt class="kiji" ><a href ="{{item.url }}">{{ item.kiji }}</a></dt>
         <dd class="title">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>
  
         <dd class="vol">{{ item.vol }}</dd>
@@ -66,7 +63,7 @@
         <dt class="kiji">{{ item.no }}　<a href ="{{item.url }}">{{ item.kiji }}</a></dt>
         <dd class="title">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>
 -->   
-        <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}">　{{ item.kiji }}</a></dt>
+        <dt class="kiji1" data-sort = "kiji">{{ item.no }}　<a href ="{{item.url }}">　{{ item.kiji }}</a></dt>
         <dd class="kiji2">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
       </dl>
       </li>
