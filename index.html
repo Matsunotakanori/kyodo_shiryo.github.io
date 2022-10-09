@@ -62,8 +62,9 @@
 ####### 
         <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}">}{{ item.kiji }}</a></dt>
 -->  
-        <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}"> {{ item.kiji }}</a></dt>
-        <dd class="kiji2">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
+        <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}"> 
+        <dt class="kiji2">{{ item.kiji }}</a></dt>
+        <dd class="kiji3">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
       </dl>
     
       </li>
@@ -82,7 +83,7 @@
   var options = {
     // 対象とするclass を指定
     // valueNames: ['kiji', 'vol', 'hizuke', ],
-    valueNames: ['kiji1', 'vol', 'hizuke', 'no', ],
+    valueNames: ['kiji2', 'vol', 'hizuke', 'no', ],
     // ページネーション指定 pageはページごとの表示件数
     page: 20,
     pagination: {
