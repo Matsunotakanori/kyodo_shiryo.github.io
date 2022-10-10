@@ -32,7 +32,7 @@
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
       <br>
-      <button class="sort" data-sort="kiji2">並べ替え</button>
+      <button class="sort" data-sort="kiji4">号数で並べ替え</button>
       <br>
       
     </div>
@@ -67,7 +67,8 @@
 -->  
         <dd class="kiji1"><a href ="{{item.url }}"> {{ item.no }}</a></dd>
         <dd class="kiji2">{{ item.kiji }}</dd>
-        <dd class="kiji3">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
+        <dd class="kiji3">{{ item.title }}</dd>
+        <dd class="kiji4">no. {{ item.vol }} ({{ item.hizuke }})</dd>        
       </dl>
     
       </li>
