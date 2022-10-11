@@ -49,6 +49,7 @@
       {% for item in site.data.koho_minokamo %}
       <li>
       <p class="horizon"></p>
+      var cnt=cnt++;
       <dl>
 <!--
         <dt class="no">{{ item.no }}</dt>
@@ -64,6 +65,7 @@
 ####### 
         <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}">}{{ item.kiji }}</a></dt>
 -->  
+        cnt
         <dd class="kiji1"><a href ="{{item.url }}"> {{ item.no }}</a></dd>
         <dd class="kiji2">{{ item.kiji }}</dd>
         <dd class="kiji3">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
