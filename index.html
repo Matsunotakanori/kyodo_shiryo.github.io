@@ -49,7 +49,7 @@
       <!--
       {% for item in site.data.koho_minokamo  %}
       --->
-      {% assign sorted = site.data.koho_minokammo | sort: 'kiji' | reverse %}
+      {% assign sorted = site.koho_minokammo | sort: 'kiji' | reverse %}
       {for item in sorted %}
 
       <li>
