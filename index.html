@@ -50,7 +50,7 @@
       {% for item in site.data.koho_minokamo  %}
 -->
       
-      {% assign doclist = site.data.koho_minokamo | sort: 'kiji' %}
+      {% assign doclist = site.data.koho_minokamo.tsv | sort: 'kiji' %}
       
       {% for item in doclist  %}
       <li>
