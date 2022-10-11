@@ -47,7 +47,7 @@
     -->
     <ul class="list list-unstyled">
       {% for item in site.data.koho_minokamo  %}
-      {{site.pages | sort: "kiji"}}
+
       <li>
       <p class="horizon"></p>
 
@@ -66,6 +66,7 @@
 ####### 
         <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}">}{{ item.kiji }}</a></dt>
 -->  
+        {{site.pages | sort: "kiji"}}
         <dd class="kiji1"><a href ="{{item.url }}"> {{ item.no }}</a></dd>
         <dd class="kiji2">{{ item.kiji }}</dd>
         <dd class="kiji3">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>        
