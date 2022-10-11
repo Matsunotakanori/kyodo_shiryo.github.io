@@ -46,8 +46,13 @@
          classは任意設定
     -->
     <ul class="list list-unstyled">
- 
+<!--
       {% for item in site.data.koho_minokamo  %}
+-->
+      
+      {$ assign doclist = site.data.koho_minokamo.docs | sort: 'kiji' %}
+      
+      {% for item in doclist  %}
       <li>
       <p class="horizon"></p>
 
