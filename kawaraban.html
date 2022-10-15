@@ -32,8 +32,11 @@
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
     <br>
-      <button class="sort" data-sort="kensaku2">号数で並べ替え</button>
+      <button class="sort" data-sort="">
+        日付で並べ替え
+      </button>
     <br>
+      
     </div>
     <!-- classをpaginationにし、list.jsのページネーションに -->
     <div class="form-group">
@@ -46,14 +49,12 @@
          classは任意設定
     -->
     <ul class="list list-unstyled">
-    var cnt=0:
       {% for item in site.data.kiji201901  %}
-       cnt++;
       <li>
       <p class="horizon"></p>
       <dl>
         <dd class="kensaku1">{{ item.kiji1 }} : {{ item.kiji2 }}</dd>
-        <dd class="kensaku2">{{ item.ymd }} - {{ item.title1 }}{{ item.title2 }} - {{ item.cls }}</dd>
+        <dd class="kensaku2">{{ item.ymd }} - {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</dd>
       </dl>
       </li>
       {% endfor %}
@@ -62,7 +63,7 @@
       <p class="horizon"></p>
       <dl>
         <dd class="kensaku1">{{ item.kiji1 }} : {{ item.kiji2 }}</dd>
-        <dd class="kensaku2">{{ item.ymd }} - {{ item.title1 }}{{ item.title2 }} - {{ item.cls }}</dd>
+        <dd class="kensaku2">{{ item.ymd }} - {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</dd>
       </dl>
       </li>
       {% endfor %}    
