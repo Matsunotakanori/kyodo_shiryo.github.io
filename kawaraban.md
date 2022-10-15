@@ -73,7 +73,7 @@
   var options = {
     // 対象とするclass を指定
     // valueNames: ['kiji1', 'kensaku2', ],
-    valueNames: ['kiji2', ],
+    valueNames: ['kensaku1', ],
     // ページネーション指定 pageはページごとの表示件数
     page: 20,
     pagination: {
