@@ -54,7 +54,7 @@
 
       <dl>
         <dd class="kensaku1">{{ item.kiji1 }}{{ item.kiji2 }}</a></dd>
-        <dd class="kensaku2">{{ item.title1 }}{{ item.title2 }}{{ item.yymm }}</dd>     
+        <dd class="kensaku2">{{ item.title1 }}{{ item.title2 }}{{ item.ymd }}</dd>     
       </dl>
     
       </li>
@@ -72,7 +72,7 @@
   // List.jsの動作パラメータ設定
   var options = {
     // 対象とするclass を指定
-    // valueNames: ['kensaku1', 'kensaku2', ],
+    // valueNames: ['kiji1', 'kensaku2', ],
     valueNames: ['kiji2', ],
     // ページネーション指定 pageはページごとの表示件数
     page: 20,
