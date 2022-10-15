@@ -32,12 +32,13 @@
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
     <br>
-      <button class="sort" data-sort="">
+      <button class="sort" data-sort="kensaku1">
         日付で並べ替え
       </button>
     <br>
       
     </div>
+    
     <!-- classをpaginationにし、list.jsのページネーションに -->
     <div class="form-group">
       <ul class="pagination list-inline"></ul>
@@ -54,7 +55,6 @@
       <li>
         <p class="kensaku1">{{ item.ymd }} {{ item.kiji1 }} : {{ item.kiji2 }}- {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</p>
       </li>
-      </ol>
       {% endfor %}
        {% for item in site.data.kiji201901  %}
       <ol>
