@@ -50,27 +50,17 @@
     -->
     <ul class="list list-unstyled">
       {% for item in site.data.kiji201812  %}
+      <ol>
       <li>
-      <p class="horizon"></p>
-      <dl>
-        <dd class="kensaku1">{{ item.kiji1 }} : {{ item.kiji2 }}</dd>
-        <dd class="kensaku2">{{ item.ymd }} - {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</dd>
-      </dl>
+        <p class="kensaku1">{ item.ymd }} {{ item.kiji1 }} : {{ item.kiji2 }}- {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</p>
       </li>
       {% endfor %}
        {% for item in site.data.kiji201901  %}
       <li>
-      <p class="horizon"></p>
-      <dl>
-        <dd class="kensaku1">{{ item.kiji1 }} : {{ item.kiji2 }}</dd>
-        <dd class="kensaku2">{{ item.ymd }} - {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</dd>
-      </dl>
+        <p class="kensaku1">{ item.ymd }} {{ item.kiji1 }} : {{ item.kiji2 }}- {{ item.title1 }}　{{ item.title2 }} - {{ item.cls }}</p>
       </li>
-      {% endfor %}    
-      
-      
-      
-    </ul>
+      {% endfor %}       
+    </ol>
   </div>
   <hr>
   <footer>
