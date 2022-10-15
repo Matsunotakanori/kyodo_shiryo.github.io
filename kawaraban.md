@@ -18,9 +18,9 @@
   
   <h1 id="top">みのかも　かわら版　記事検索（テスト中）</h1>
   <ul>
-    <li>収録範囲　No.605(1997-07-01)から最新号まで 最終更新日:2022-10-13</li>
+    <li>収録範囲　2019-01から2019-01最新号まで 最終更新日:2022-10-13</li>
     <li>Codeは<a href="https://github.com/Matsunotakanori/kyodo_shiryo.github.io" target="_blank">こちら</a></li>
-    <li>「広報みのかも」は<a href = "https://www.city.minokamo.gifu.jp/shimin/contents.cfm?base_id=6449&mi_id=5&g1_id=16&g2_id=76">こちら</a></li>
+    </li>
   </ul>
   <!-- list.jsのブロック idはlist.jsの呼び出しに使う　HTML末尾のスクリプトで指定している -->
 
