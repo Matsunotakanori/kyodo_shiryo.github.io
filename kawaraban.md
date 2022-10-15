@@ -53,7 +53,7 @@
       <p class="horizon"></p>
 
       <dl>
-        <dd class="kensaku1">{{ item.kiji1 }}{{ item.kiji2 }}</a></dd>
+        <dd class="kensaku1">{{ item.kiji1 }}{{ item.kiji2 }}</dd>
         <dd class="kensaku2">{{ item.title1 }}{{ item.title2 }}{{ item.ymd }}</dd>     
       </dl>
     
