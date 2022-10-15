@@ -57,7 +57,13 @@
       </li>
       </ul>
       {% endfor %}  
-
+      {% for item in site.data.kiji201901  %}
+      <ul>
+      <li>
+        <p class="kensaku1">{{ item.ymd }} {{ item.kiji1 }} {{ item.kiji2 }} 【{{ item.title1 }}】{{ item.title2 }} {{ item.cls }} {{ item.kw }}</p>
+      </li>
+      </ul>
+      {% endfor %}  
   <hr>
   <footer>
     <a href="#top">ページトップへ</a>
