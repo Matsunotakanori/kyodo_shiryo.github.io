@@ -31,9 +31,9 @@
       <!-- classをsearchにし、list.jsの検索欄に -->
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
-      <!--
-      <button class="sort" data-sort="kiji4">号数で並べ替え</button>
-      -->
+
+      <button class="sort" data-sort="kensaku2">号数で並べ替え</button>
+
     </div>
     <!-- classをpaginationにし、list.jsのページネーションに -->
     <div class="form-group">
@@ -62,7 +62,7 @@
       <p class="horizon"></p>
       <dl>
         <dd class="kensaku1">{{ item.kiji1 }} : {{ item.kiji2 }}</dd>
-        <dd class="kensaku2">{{ item.title1 }}{{ item.title2 }} -  {{ item.ymd }} - {{ item.cls }}</dd>
+        <dd class="kensaku2">{{ item.ymd }} {{ item.title1 }}{{ item.title2 }} - {{ item.cls }}</dd>
       </dl>
       </li>
       {% endfor %}    
