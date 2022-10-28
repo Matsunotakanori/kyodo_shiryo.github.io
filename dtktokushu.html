@@ -30,7 +30,7 @@
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
     <br>
-      <button class="sort" data-sort="data2">
+      <button class="sort" data-sort="data1">
         巻号で並べ替え
       </button>
     <br>
@@ -52,7 +52,7 @@
       {% for item in site.data.dtk_tokushu %}
       <ul>
       <li>
-        <p class="data1">{{ item.kiji }} {{ item.nen}} {{ item.vol }} {{ item.no }}  </p>
+        <p class="data1">{{ item.s-key }}{{ item.kiji }} {{ item.vol }} ({{ item.no }}) {{ item.nen}}  </p>
         </li>
       </ul>
       <hr>
