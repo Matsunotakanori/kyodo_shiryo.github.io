@@ -48,11 +48,11 @@
          classは任意設定
     -->
     <ul class="list list-unstyled">
-    <!-- 2019年分読み込み -->
+    <!-- data読み込み -->
       {% for item in site.data.dtk_tokushu %}
       <ul>
       <li>
-        <p class="kensaku1">{{ item.nen}} {{ item.vol }} {{ item.no }} 【{{ item.kiji }}】{{ item.s_key2 }} }</p>
+        <p class="kensaku1">{{ item.nen}} {{ item.vol }} {{ item.no }} 【{{ item.kiji }}】{{ item.s_key }} }</p>
       </li>
       </ul>
       {% endfor %} 
