@@ -27,7 +27,7 @@
       <input id="keyword" class="search form-control form-control-lg" placeholder="input any word" size="50" />
       <span id="hits"></span>
     <br>
-      <button class="sort" data-sort="kensaku1">
+      <button class="sort" data-sort="data2">
         日付で並べ替え
       </button>
     <br>
@@ -49,8 +49,10 @@
       {% for item in site.data.dtk_tokushu %}
       <ul>
       <li>
-        <p class="kensaku1">{{ item.s_key}} {{ item.nen}} {{ item.vol }} {{ item.no }} {{ item.kiji }} </p>
-      </li>
+        <p class="data1">{{ item.kiji }} </p>
+        <p class="data2">{{ item.s_key}} {{ item.s_key}} {{ item.nen}} {{ item.vol }} {{ item.no }} </p>
+
+        </li>
       </ul>
       {% endfor %} 
       
@@ -67,7 +69,7 @@
   // List.jsの動作パラメータ設定
   var options = {
     // 対象とするclass を指定
-    valueNames: ['kensaku1', ],
+    valueNames: ['data1', ],
     // ページネーション指定 pageはページごとの表示件数
     page: 50,
     pagination: {
