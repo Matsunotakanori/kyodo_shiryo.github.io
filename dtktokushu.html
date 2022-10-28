@@ -58,11 +58,12 @@
         </li>
       </ul>
       {% endfor %} 
-  <hr>       
+  <hr>  
+ <!--
   <footer>
     <a href="#top">ページトップへ</a>
   </footer>
-      
+-->      
 <!-- list.js スクリプトの記述 -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
@@ -72,7 +73,7 @@
     // 対象とするclass を指定
     valueNames: ['data1', ],
     // ページネーション指定 pageはページごとの表示件数
-    page: 0,
+    page: 20,
     pagination: {
       paginationClass: 'pagination',
       innerWindow: 4,
