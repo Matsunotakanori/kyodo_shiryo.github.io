@@ -53,24 +53,8 @@
       <p class="horizon"></p>
 
       <dl>
-<!--
-        <dt class="no">{{ item.no }}</dt>
-        <dt class="kiji" ><a href ="{{item.url }}">{{ item.kiji }}</a></dt>
-        <dd class="title">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>
-        <dd class="vol">{{ item.vol }}</dd>
-        <dd class="hizuke">{{ item.hizuke }}</dd>
-        <dt class="no">{{ item.no }}</dt>
-        <dt class="kensaku">{{ item.kiji }}</dt>
-#######
-        <dt class="kiji">{{ item.no }}　<a href ="{{item.url }}">{{ item.kiji }}</a></dt>
-        <dd class="title">{{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</dd>
-####### 
-        <dt class="kiji1">{{ item.no }}　<a href ="{{item.url }}">}{{ item.kiji }}</a></dt>
--->  
-
-        <dd class="kiji1"><a href ="{{item.url }}"> {{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})</a></dd>
-        <dd class="kiji2">{{ item.kiji }}</dd>
-  
+        <dd class="kiji1"><a href ="{{item.url }}"> {{ item.title }} no. {{ item.vol }} ({{ item.hizuke }})
+          {{ item.kiji }}</dd>
       </dl>
     
       </li>
@@ -89,7 +73,7 @@
   var options = {
     // 対象とするclass を指定
     // valueNames: ['kiji', 'vol', 'hizuke', ],
-    valueNames: ['kiji2', ],
+    valueNames: ['kiji1', ],
     // ページネーション指定 pageはページごとの表示件数
     page: 20,
     pagination: {
