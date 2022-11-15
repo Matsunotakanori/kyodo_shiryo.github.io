@@ -1,7 +1,6 @@
 ---
 
 ---
-<!DOCTYPE html>
 <html lang="ja">
 # 新着図書
 <ol>
