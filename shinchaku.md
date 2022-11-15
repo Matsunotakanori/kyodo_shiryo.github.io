@@ -1,7 +1,6 @@
 ---
 
 ---
-<html lang="ja">
 # 新着図書
 <ol>
 <li><a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=978-4-492-04708-8">励ます禅語</a></li>
