@@ -4,7 +4,7 @@
 # 新着図書
 <ol>
 <li><a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=9784492047088">励ます禅語 : 「茶禅一味」の境地に学ぶ</a></li>
-<li><<a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=9784093888851">逆説の日本史27</a></li>
+<li><a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=9784093888851">逆説の日本史27</a></li>
 <li><a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=9784833143035">名古屋発 日帰りさんぽ</a></li>
 <li><a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=9784756257055">日本の美しい神秘風景</a></li>
 <li><a href="https://ilisod003.apsel.jp/minokamo-sakahogi/item-details?isbn=9784022951939">よみがえる戦略的思考 : ウクライナ戦争で見る「動的体系」</a></li>
